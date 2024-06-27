@@ -6,7 +6,7 @@ import VirtualReality from "../views/VirtualReality.vue";
 import RTL from "../views/Rtl.vue";
 import Profile from "../views/Profile.vue";
 import Signup from "../views/Signup.vue";
-import Signin from "../views/Signin.vue";
+import Login from "../views/Login.vue";
 
 const routes = [
   {
@@ -47,7 +47,7 @@ const routes = [
   {
     path: "/signin",
     name: "Signin",
-    component: Signin,
+    component: Login,
   },
   {
     path: "/signup",
